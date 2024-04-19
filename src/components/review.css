@@ -1,0 +1,16 @@
+.viewbtn {
+    background-color: #00ADEF;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.viewbtn:hover {
+    background-color: #19beff;
+    transition: 0.5s;
+}
+
+.mt-8 {
+    margin-top: 67px;
+}

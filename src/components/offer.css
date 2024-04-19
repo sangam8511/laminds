@@ -1,0 +1,16 @@
+.bg-blue-1 {
+    background-color: #17232E;
+    border-top: 2px solid #273746;
+    border-bottom: 2px solid #273746;
+    border-right: 2px solid #273746;
+    /* border: 2px solid #273746; */
+}
+
+.text-hover {
+    text-decoration: none;
+    color: rgb(0, 144, 100%);
+}
+
+.fs-7 {
+    font-size: 12px;
+}

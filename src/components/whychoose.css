@@ -1,0 +1,20 @@
+.service-box-2 {
+    width: 400px;
+    height: 400px;
+    background-color: #17232E;
+    border: 2px solid #273746;
+    padding: 5px;
+}
+
+.service-box-2:hover {
+    border: 1px solid #00ADEF;
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transition-duration: 0.7s; */
+    transition: 0.4s ease-in-out;
+
+}
+
+.text-grey {
+    color: #B4B1B1;
+}

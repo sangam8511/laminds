@@ -1,0 +1,46 @@
+.mt-6 {
+    margin-top: 70px;
+}
+
+.btn-talk {
+    padding: 7px 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #00ADEF;
+}
+
+.width-5 {
+    max-width: 700px;
+}
+
+.mt-7 {
+    margin-top: 100px;
+}
+
+.top-60 {
+    top: 30%;
+}
+
+.bg-gray {
+    background-color: #232E37;
+    border-radius: 10px;
+}
+
+.p-6 {
+    padding: 70px;
+}
+
+.iamg-hover :hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.btn-pos {
+    background-color: #134A5F;
+    border: none;
+    color: #00ADEF;
+    border-radius: 30px;
+
+}

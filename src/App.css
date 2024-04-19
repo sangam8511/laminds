@@ -1,38 +1,247 @@
-.App {
-  text-align: center;
+body {
+  background-color: #17232E;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.bg-primary-nav {
+  background-color: #17232E;
+}
+
+/*  Navbar */
+.contact-btn {
+  padding: 7px 40px;
   color: white;
+  border: none;
+  border-radius: 30px;
+  background-color: #00ADEF;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-collapse {
+  flex-grow: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-btn:hover {
+  background-color: #0398d3;
+
+  transition-duration: 0.8s;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #5858585e !important;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+  /* Smooth transition for color change */
+  position: relative;
+  /* Positioning for the underline */
+}
+
+
+
+.nav-link::after {
+  content: '';
+
+  position: absolute;
+
+  bottom: -2px;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 2px;
+
+  background-color: transparent;
+
+  transition: background-color 0.5s ease-in-out;
+
+}
+
+.nav-link:hover::after {
+  background-color: #00ADEF;
+
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  /* Add a blur effect */
+  background-color: #17232E;
+  /* Transparent background */
+  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+  /* Add transition */
+}
+
+.navbar.navbar-scrolled {
+  background-color: transparent;
+  /* Set background color to transparent */
+  backdrop-filter: blur(10px);
+  /* Add a blur effect */
+  transition: backdrop-filter 0.3s ease;
+  /* Add a transition effect */
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+  /* Add color transition */
+}
+
+.navbar-scrolled .navbar-nav .nav-link {
+  color: #000;
+  /* Change text color on scroll */
+}
+
+.x-hidden {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+  /* Add smooth scrolling behavior */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #273542;
+  /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ADEF;
+  /* Color of the scroll thumb */
+  /* border-radius: 5px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+  background: #018dc5;
+  /* Color of the scroll thumb on hover */
+}
+
+.blueline {
+  background: #018dc5;
+  height: 7px;
+  width: 60px;
+}
+
+::selection {
+  background-color: #018dc5;
+  color: white;
+  /* This changes the color of the text itself */
 }

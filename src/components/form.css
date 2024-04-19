@@ -1,0 +1,30 @@
+.bg-darkblue {
+    background-color: #23303A;
+    border-radius: 30px;
+    width: 80%;
+    padding: 50px 100px;
+}
+
+.form-control {
+    background-color: #15232F;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.185);
+}
+
+label {
+    color: white;
+}
+
+.submitbtn {
+    background-color: #00ADEF;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.submitbtn:hover {
+    background-color: #19beff;
+    transition: 0.5s;
+}

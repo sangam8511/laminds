@@ -1,0 +1,81 @@
+.service-btn {
+    background-color: #00ADEF;
+    color: white;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 30px;
+}
+
+.service-btn {
+    background-color: #0398d3;
+}
+
+.contact-bttn {
+    background-color: transparent;
+    border: 1px solid #00ADEF;
+    padding: 7px 40px;
+    border-radius: 30px;
+    color: #00ADEF;
+}
+
+.text-blue {
+    color: #00ADEF;
+
+}
+
+.contact-bttn:hover {
+    background-color: #00ADEF;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.bg-trans {
+    background-color: transparent;
+}
+
+.right {
+    right: 0;
+}
+
+.fs-1 {
+    font-size: 3.5rem !important;
+}
+
+.w-60 {
+    width: 70%;
+}
+
+.typing-effect {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.typing-effect>span {
+    opacity: 0;
+    animation: fadeInText 1s forwards;
+}
+
+.pt {
+    padding-top: 80px;
+}
+
+@media (max-width:992px) {
+    .flx-wrap {
+        flex-wrap: wrap;
+        /* flex-wrap: wrap-reverse; */
+    }
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

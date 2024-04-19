@@ -1,0 +1,19 @@
+.bg-blue {
+    background-color: #00ADEF;
+    width: 100vw;
+    height: 270px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 425px) {
+    .bg-blue {
+        height: 400px;
+    }
+
+    .justify-content-between {
+        justify-content: center !important;
+    }
+}

@@ -1,0 +1,34 @@
+.h-6 {
+    height: 235px;
+    background-color: #232E37;
+    border-radius: 10px;
+}
+
+.h-7 {
+    height: 300px;
+    background-color: #232E37;
+    border-radius: 10px;
+}
+
+.fs-h {
+    font-size: 2.5rem;
+}
+
+.tabsc-btn {
+    background-color: #00ADEF;
+    padding: 8px 40px;
+
+    border: none;
+}
+
+.tabs-btn {
+    background-color: #00ADEF;
+    padding: 8px 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.tabs-btn:hover {
+    background-color: #19beff;
+    transition: 0.5s;
+}

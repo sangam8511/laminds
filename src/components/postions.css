@@ -1,0 +1,48 @@
+.btn-apply {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #00ADEF;
+    color: #00ADEF;
+    border-radius: 5px;
+}
+
+.btn-apply:hover {
+    background-color: #00ADEF;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.border-blue {
+    border: 3px solid #00abef4d;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.bg-gray-2 {
+    background-color: #232E37;
+}
+
+.hr-btn {
+    padding: 30px;
+    border: 1px solid #00abef4d;
+    border-radius: 5px;
+}
+
+.hr-btn:hover {
+    background-color: #00ADEF;
+    transition-duration: 0.3s;
+}
+
+.ove-box {
+    width: 150px;
+    height: 150px;
+}
+
+.box-2 {
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.visiblilty-0 {
+    visibility: hidden;
+}
