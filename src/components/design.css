@@ -7,6 +7,37 @@
     border-radius: 10px;
 }
 
-/* .m-width {
-    width: 440px !important;
-} */
+@media only screen and (max-width: 1323px) {
+    .service-box-1 {
+        width: 400.44px;
+    }
+}
+
+@media only screen and (max-width: 1228px) {
+    #img-2 {
+        display: none;
+    }
+
+    #flex-column {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 836px) {
+
+    #flex-column {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .service-box-1 {
+        width: 446.44px;
+    }
+}
+
+@media only screen and (max-width: 464px) {
+
+    .service-box-1 {
+        width: 304.44px;
+    }
+}

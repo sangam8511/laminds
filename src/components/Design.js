@@ -53,6 +53,7 @@ export default function Design() {
         </motion.p>
         <motion.div
           className=" d-flex  justify-content-center align-items-center"
+          id="flex-column"
           variants={fadeInAnimationVariants}
           initial="initial"
           whileInView="animate"
@@ -210,7 +211,7 @@ export default function Design() {
             </div>
           </div>
           <div>
-            <img src={website} alt="" width={"400px"} />
+            <img src={website} alt="" width={"400px"} id="img-2" />
           </div>
           <div>
             <div>
