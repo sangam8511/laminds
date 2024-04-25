@@ -43,7 +43,7 @@ export default function Review() {
       <div className="container mt-5">
         <div className="d-flex justify-content-between">
           <h2 className="text-white">Happy Clients</h2>
-          <button className="viewbtn">View All</button>
+          {/* <button className="viewbtn">View All</button> */}
         </div>
         <div>
           <Slider {...settings}>

@@ -21,6 +21,18 @@
     #flex-column {
         flex-direction: column;
     }
+
+    .flex-column-reverse-1 {
+        flex-direction: column-reverse !important;
+    }
+
+    .flex-column-normal {
+        flex-direction: column !important;
+    }
+
+    .text-center-1 {
+        text-align: center !important;
+    }
 }
 
 @media only screen and (max-width: 836px) {

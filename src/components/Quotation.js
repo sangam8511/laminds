@@ -2,7 +2,7 @@ import React from "react";
 import "./quotation.css";
 export default function Quotation() {
   return (
-    <div>
+    <div className="px-3">
       <div className="container h-6 mt-5 mb-5 d-flex flex-column justify-content-center align-items-center">
         <h1 className="text-white">
           <span className="text-blue fs-h fw-bold">Let's Discuss</span> Your

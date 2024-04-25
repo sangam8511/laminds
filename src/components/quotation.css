@@ -1,7 +1,8 @@
 .h-6 {
-    height: 235px;
+    /* height: 235px; */
     background-color: #232E37;
     border-radius: 10px;
+    padding: 50px 20px;
 }
 
 .h-7 {

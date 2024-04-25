@@ -151,7 +151,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
         }}
         transition={{ type: "spring" }}
         src={imgSrc}
-        className="z-0 rounded-lg object-cover"
+        className="z-0 rounded-lg object-cover dNone"
         alt={`Image representing a link for ${heading}`}
       />
 
@@ -184,7 +184,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
         /> */}
         {/* <FiArrowRight className="fs-2 text-white poppins-bold" /> */}
       </motion.div>
-      <img src={data} alt="" width={300} className="d-hover" />
+      <img src={data} alt="" width={300} className="d-hover dNone" />
     </motion.a>
   );
 };

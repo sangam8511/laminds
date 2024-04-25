@@ -34,42 +34,39 @@ export default function Portfolio() {
       activeTab === "All" &&
         React.createElement(
           "div",
-          { className: "d-flex justify-content-around flex-wrap" }, // Moved the comma here
+          { className: "d-flex justify-content-around flex-wrap" },
           React.createElement(
             "div",
-            { className: "portfolio-card mt-4" },
+            { className: "portfolio-card mt-4 w-5-1" },
             React.createElement("img", {
               src: ymca,
               alt: "Portfolio Image",
-              style: { width: "600px" },
+              className: "img-fluid",
+              // style: { width: "600px" },
             }),
             React.createElement(
               "h6",
-              { className: "mt-4" }, // Corrected className to be a string
+              { className: "mt-4" },
               "YMCA OF SOUTH FLORIDA"
             ),
             React.createElement(
               "p",
-              { style: { width: "500px" } },
+              {},
               "The YMCA is the leading nonprofit committed to strengthening individuals and communities across the country."
             )
           ),
           React.createElement(
             "div",
-            { className: "portfolio-card mt-4" },
+            { className: "portfolio-card mt-4 w-5-1" },
             React.createElement("img", {
               src: youfit,
               alt: "Portfolio Image",
-              style: { width: "600px" },
+              className: "img-fluid",
             }),
-            React.createElement(
-              "h6",
-              { className: "mt-4" }, // Corrected className to be a string
-              "YouFit GYMS"
-            ),
+            React.createElement("h6", { className: "mt-4" }, "YouFit GYMS"),
             React.createElement(
               "p",
-              { style: { width: "500px" } },
+              {},
               "YouFit Gyms starting at $9.99. No crowds! Access to new strength equipment, group classes, Personal Training for $25. "
             )
           )
@@ -95,22 +92,22 @@ export default function Portfolio() {
         // ),
         React.createElement(
           "div",
-          { className: "portfolio-card mt-4" },
+          { className: "portfolio-card mt-4 align-items-center w-5-1" },
           React.createElement("img", {
             src: ymca,
             alt: "Portfolio Image",
-            style: { width: "500px" },
-            className: "hover-opacity",
+
+            className: "hover-opacity img-fluid",
           }),
           React.createElement(
             "h6",
-            { className: { width: "500px" } },
+            { className: " mt-2" },
             null,
             "YMCA OF SOUTH FLORIDA"
           ),
           React.createElement(
             "p",
-            { style: { width: "500px" } },
+            { className: "w-5" },
             null,
             "The YMCA is the leading nonprofit committed to strengthening individuals and communities across the country."
           )

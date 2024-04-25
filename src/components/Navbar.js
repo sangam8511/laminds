@@ -19,7 +19,7 @@ export default function Navbar() {
             <img src={logo} alt="Logo" className="bg-trans" />
           </Link>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-blue-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -36,7 +36,7 @@ export default function Navbar() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 bg-trans">
               <li class="nav-item bg-trans">
                 <a
-                  class="nav-link  text-white poppins-regular bg-trans"
+                  class="nav-link  text-white poppins-regular bg-trans text-center"
                   aria-current="page"
                   href="/"
                 >
@@ -45,7 +45,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans ">
                 <Link
-                  class="nav-link text-white poppins-regular bg-trans"
+                  class="nav-link text-white poppins-regular bg-trans text-center"
                   to="/service"
                 >
                   SERVICES
@@ -53,7 +53,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans">
                 <Link
-                  class="nav-link text-white poppins-regular  bg-trans"
+                  class="nav-link text-white poppins-regular  bg-trans text-center"
                   to="/portfolio"
                 >
                   PORTFOLIO
@@ -61,7 +61,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans">
                 <Link
-                  class="nav-link text-white poppins-regular bg-trans "
+                  class="nav-link text-white poppins-regular bg-trans text-center "
                   to="/Career"
                 >
                   CAREER
@@ -69,14 +69,17 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans">
                 <a
-                  class="nav-link text-white poppins-regular bg-trans"
+                  class="nav-link text-white poppins-regular bg-trans text-center"
                   href="/"
                 >
                   EVENTS
                 </a>
               </li>
-              <Link to="/contact">
-                <button type="button" class="contact-btn poppins-regular">
+              <Link
+                to="/contact"
+                className="d-flex justify-content-center text-decoration-none"
+              >
+                <button type="button" class="contact-btn poppins-regular ">
                   CONTACT
                 </button>
               </Link>

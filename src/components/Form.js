@@ -5,10 +5,10 @@ export default function Form() {
   return (
     <div id="inqform">
       <div class="container mt-5 d-flex justify-content-center">
-        <div className="bg-darkblue ">
+        <div className="bg-darkblue px-5 py-5">
           <h2 className="text-white text-center">For Project Inquiry</h2>
           <form>
-            <div class="form-group mt-5">
+            <div class="form-group  mt-5">
               <input
                 type="text"
                 class="form-control"

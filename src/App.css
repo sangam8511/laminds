@@ -3,6 +3,12 @@ body {
 
 }
 
+.bg-blue-2 {
+  background-color: #00ADEF;
+  padding: 5px;
+
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;

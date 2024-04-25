@@ -137,7 +137,7 @@ export default function Design() {
           <div>
             <div>
               <div className="d-flex flex-column gap-3">
-                <div className="d-flex align-items-start gap-3 service-box-1">
+                <div className="d-flex align-items-start gap-3 service-box-1 ">
                   <motion.div
                     variants={fadeInAnimationVariants}
                     initial="initial"
@@ -146,11 +146,13 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex align-items-center"
+                    className="d-flex align-items-center flex-column-reverse-1"
                   >
                     <div>
-                      <div className="text-white fs-3 text-start">Planning</div>
-                      <p className="text-white text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
+                        Planning
+                      </div>
+                      <p className="text-white text-start text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers and they make
                         sure design and experiences translate to code.
@@ -168,13 +170,13 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex align-items-center"
+                    className="d-flex align-items-center flex-column-reverse-1"
                   >
                     <div>
-                      <div className="text-white fs-3 text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         UI/UX Design
                       </div>
-                      <p className="text-white text-start">
+                      <p className="text-white text-start text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers and they make
                         sure design and experiences translate to code.
@@ -183,7 +185,7 @@ export default function Design() {
                     <img src={ux} alt="" height={"100px"} />
                   </motion.div>
                 </div>
-                <div className="d-flex align-items-center gap-3 service-box-1">
+                <div className="d-flex align-items-center gap-3 service-box-1 ">
                   <motion.div
                     variants={fadeInAnimationVariants}
                     initial="initial"
@@ -192,13 +194,13 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex align-items-center"
+                    className="d-flex align-items-center flex-column-reverse-1"
                   >
                     <div>
-                      <div className="text-white fs-3 text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Development
                       </div>
-                      <p className="text-white text-start">
+                      <p className="text-white text-start text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers and they make
                         sure design and experiences translate to code.
@@ -216,7 +218,7 @@ export default function Design() {
           <div>
             <div>
               <div className="d-flex flex-column gap-3">
-                <div className="d-flex align-items-start gap-3 service-box-1">
+                <div className="d-flex align-items-start gap-3 service-box-1 mt-3">
                   <motion.div
                     variants={fadeInAnimationVariants}
                     initial="initial"
@@ -225,14 +227,14 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center"
+                    className="d-flex gap-3 align-items-center flex-column-normal "
                   >
                     <img src={ux} alt="" height={"100px"} />
                     <div>
-                      <div className="text-white fs-3 text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Code Review
                       </div>
-                      <p className="text-white text-start ">
+                      <p className="text-white text-start  text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers and they make
                         sure design and experiences translate to code.
@@ -249,14 +251,14 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center"
+                    className="d-flex gap-3 align-items-center flex-column-normal "
                   >
                     <img src={ux} alt="" height={"100px"} />
                     <div>
-                      <div className="text-white fs-3 text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Testing and Quality Assurance
                       </div>
-                      <p className="text-white text-start ">
+                      <p className="text-white text-start text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers
                       </p>
@@ -272,14 +274,14 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center"
+                    className="d-flex gap-3 align-items-center flex-column-normal  "
                   >
                     <img src={ux} alt="" height={"100px"} />
                     <div>
-                      <div className="text-white fs-3 text-start">
+                      <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Deployment
                       </div>
-                      <p className="text-white text-start ">
+                      <p className="text-white text-start text-center-1">
                         Unlike other companies, we are a UX first development
                         company. Projects are driven by designers and they make
                         sure design and experiences translate to code.
