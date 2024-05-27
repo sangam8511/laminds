@@ -36,7 +36,7 @@ export default function Navbar() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 bg-trans">
               <li class="nav-item bg-trans">
                 <a
-                  class="nav-link  text-white poppins-regular bg-trans text-center"
+                  class="nav-link text-white poppins-regular bg-trans text-center"
                   aria-current="page"
                   href="/"
                 >
@@ -53,7 +53,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans">
                 <Link
-                  class="nav-link text-white poppins-regular  bg-trans text-center"
+                  class="nav-link text-white poppins-regular bg-trans text-center"
                   to="/portfolio"
                 >
                   PORTFOLIO
@@ -61,7 +61,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item bg-trans">
                 <Link
-                  class="nav-link text-white poppins-regular bg-trans text-center "
+                  class="nav-link text-white poppins-regular bg-trans text-center"
                   to="/Career"
                 >
                   CAREER

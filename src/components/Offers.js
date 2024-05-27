@@ -2,6 +2,10 @@ import React, { useRef } from "react";
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import "./offer.css";
 import data from "./webdev.jpg";
+import app from "./Appdev.jpg";
+import database from "./datadev.jpg";
+import uiux from "./uiux.jpg";
+import wordpress from "./wordpress.jpg";
 const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
@@ -41,25 +45,25 @@ export default function Offers() {
           <Link
             heading="Application Development"
             subheading="Build amazing mobile apps powered by open web tech.Reuse existing web development skills to quickly make hybrid applications built with HTML, CSS and JavaScript. Create experiences for multiple platforms with a single codebase so you can reach your audience no matter their device."
-            imgSrc={data}
+            imgSrc={app}
             href="#"
           />
           <Link
             heading="Database Development"
             subheading="We handle and manage databases and cater to database related services, including structured and semi structured data. We have expertise in Microsoft SQL Server, a RDBMS using primary query languages T-SQL and following SQL services.We create basic reports containing tables and graphs, and more complex data visualizations, using charts, maps and sparklines."
-            imgSrc={data}
+            imgSrc={database}
             href="#"
           />
           <Link
             heading="UI/UX Design"
-            subheading="We handle and manage databases and cater to database related services, including structured and semi structured data. We have expertise in Microsoft SQL Server, a RDBMS using primary query languages T-SQL and following SQL services.We create basic reports containing tables and graphs, and more complex data visualizations, using charts, maps and sparklines."
-            imgSrc={data}
+            subheading="As a global creative agency, we seamlessly merge design prowess with cutting-edge technology and insightful intelligence. Our holistic approach encompasses UI/UX design, ensuring exceptional user experiences across digital platforms. Leveraging our expertise, we craft visually captivating interfaces that resonate with users worldwide, backed by robust technological solutions and strategic insights."
+            imgSrc={uiux}
             href="#"
           />
           <Link
             heading="Wordpress Development"
-            subheading="We handle and manage databases and cater to database related services, including structured and semi structured data. We have expertise in Microsoft SQL Server, a RDBMS using primary query languages T-SQL and following SQL services.We create basic reports containing tables and graphs, and more complex data visualizations, using charts, maps and sparklines."
-            imgSrc={data}
+            subheading="We're a global creative agency seamlessly blending design excellence, advanced technology, and strategic intelligence within WordPress. Our focus is on delivering outstanding user experiences across all WordPress platforms. Leveraging our expertise, we create visually stunning interfaces that engage users worldwide, supported by robust technological solutions and strategic insights."
+            imgSrc={wordpress}
             href="#"
           />
         </div>
@@ -173,11 +177,11 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
           style={{
             width: "300px", // Set the image width here
           }}
-          // variants={{
-          //   initial: { scale: 0, rotate: "-12.5deg" },
-          //   whileHover: { scale: 1, rotate: "12.5deg" },
-          // }}
-          // transition={{ type: "spring" }}
+          variants={{
+            initial: { scale: 0, rotate: "-12.5deg" },
+            whileHover: { scale: 1, rotate: "12.5deg" },
+          }}
+          transition={{ type: "spring" }}
           src={data}
           className="z-0 rounded-lg object-cover"
           alt={`Image representing a link for ${heading}`}

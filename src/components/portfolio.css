@@ -1,20 +1,44 @@
 .tabs-btn {
-    background-color: #00ADEF;
-    /* padding: 2px 2px; */
-    border-radius: 10px;
-    border: none;
+  background-color: #00adef;
+  /* padding: 2px 2px; */
+  border-radius: 10px;
+  border: none;
 }
 
 .w-5 {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .w-5-1 {
-    max-width: 595px;
+  max-width: 595px;
 }
 
 @media only screen and (max-width: 320px) {
-    .resposive-1 {
-        width: 296px !important;
-    }
+  .resposive-1 {
+    width: 296px !important;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .responsive-img {
+    width: 500px !important;
+  }
+  .text-wdith-res {
+    width: 500px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .responsive-img {
+    width: 450px !important;
+  }
+  .text-wdith-res {
+    width: 450px !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .responsive-img {
+    width: 250px !important;
+  }
+  .text-wdith-res {
+    width: 250px !important;
+  }
 }

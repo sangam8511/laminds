@@ -1,6 +1,10 @@
 import React from "react";
 import "./design.css";
 import ux from "./x.svg";
+import planning from "../ico/planning.png";
+import  development from "../ico/development.png";
+import  codereveiw from "../ico/codereviewmain.png";
+import  testing from "../ico/testing.png";
 import website from "../img/website.png";
 import { motion } from "framer-motion";
 const fadeInAnimationVariants = {
@@ -158,7 +162,7 @@ export default function Design() {
                         sure design and experiences translate to code.
                       </p>
                     </div>
-                    <img src={ux} alt="" height={"100px"} />
+                    <img src={planning} alt="" height={"100px"} />
                   </motion.div>
                 </div>
                 <div className="d-flex align-items-start gap-3 service-box-1">
@@ -166,7 +170,7 @@ export default function Design() {
                     variants={fadeInAnimationVariants}
                     initial="initial"
                     whileInView="animate"
-                    transition={{ duration: 0.6 }}
+                    transition={{duration: 0.6}}
                     viewport={{
                       once: true,
                     }}
@@ -185,7 +189,7 @@ export default function Design() {
                     <img src={ux} alt="" height={"100px"} />
                   </motion.div>
                 </div>
-                <div className="d-flex align-items-center gap-3 service-box-1 ">
+                <div className="d-flex align-items-center gap-3 service-box-1">
                   <motion.div
                     variants={fadeInAnimationVariants}
                     initial="initial"
@@ -206,7 +210,7 @@ export default function Design() {
                         sure design and experiences translate to code.
                       </p>
                     </div>
-                    <img src={ux} alt="" height={"100px"} />
+                    <img src={development} alt="" height={"100px"} />
                   </motion.div>
                 </div>
               </div>
@@ -227,9 +231,9 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center flex-column-normal "
+                    className="d-flex gap-3 align-items-center flex-column-normal"
                   >
-                    <img src={ux} alt="" height={"100px"} />
+                    <img src={codereveiw} alt="" height={"100px"} />
                     <div>
                       <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Code Review
@@ -251,9 +255,9 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center flex-column-normal "
+                    className="d-flex gap-3 align-items-center flex-column-normal"
                   >
-                    <img src={ux} alt="" height={"100px"} />
+                    <img src={testing} alt="" height={"100px"} />
                     <div>
                       <div className="text-white fs-3 text-start text-center-1 fw-bold mt-2">
                         Testing and Quality Assurance
@@ -274,7 +278,7 @@ export default function Design() {
                     viewport={{
                       once: true,
                     }}
-                    className="d-flex gap-3 align-items-center flex-column-normal  "
+                    className="d-flex gap-3 align-items-center flex-column-normal"
                   >
                     <img src={ux} alt="" height={"100px"} />
                     <div>

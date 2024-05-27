@@ -41,7 +41,7 @@ export default function Portfolio() {
             React.createElement("img", {
               src: ymca,
               alt: "Portfolio Image",
-              className: "img-fluid",
+              className: "img-fluid responsive-img",
               // style: { width: "600px" },
             }),
             React.createElement(
@@ -51,7 +51,7 @@ export default function Portfolio() {
             ),
             React.createElement(
               "p",
-              {},
+              {className:"text-wdith-res"},
               "The YMCA is the leading nonprofit committed to strengthening individuals and communities across the country."
             )
           ),
@@ -61,13 +61,13 @@ export default function Portfolio() {
             React.createElement("img", {
               src: youfit,
               alt: "Portfolio Image",
-              className: "img-fluid",
+              className: "img-fluid responsive-img",
             }),
-            React.createElement("h6", { className: "mt-4" }, "YouFit GYMS"),
+            React.createElement("h6", { className: "mt-4 " }, "YouFit GYMS"),
             React.createElement(
               "p",
-              {},
-              "YouFit Gyms starting at $9.99. No crowds! Access to new strength equipment, group classes, Personal Training for $25. "
+              {className:"text-wdith-res"},
+              "YouFit Gyms starting at $9.99. No crowds! Access to new strength equipment, group classes, Personal Training for $25."
             )
           )
         ),
@@ -93,11 +93,11 @@ export default function Portfolio() {
         React.createElement(
           "div",
           { className: "portfolio-card mt-4 align-items-center w-5-1" },
-          React.createElement("img", {
+          React.createElement("img ", {
             src: ymca,
             alt: "Portfolio Image",
 
-            className: "hover-opacity img-fluid",
+            className: "img-fluid responsive-img",
           }),
           React.createElement(
             "h6",

@@ -167,8 +167,8 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="d-flex flex-column gap-4 ">
-              <div className="shape-3 d-flex justify-content-center align-items-center ">
-                <div className=" d-flex align-items-center gap-3">
+              <div className="shape-3 d-flex justify-content-center align-items-center">
+                <div className="d-flex align-items-center gap-3">
                   <svg
                     width="49"
                     height="50"

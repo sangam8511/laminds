@@ -12,7 +12,7 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={ymca} alt="" width={"500px"} className="" />
+                <img src={ymca} alt="" width={"500px"} className="img-fluid" />
               </a>
             </div>
             <h4 className="text-white mt-3">YMCA SOUTH OF FLORIDA</h4>
@@ -23,7 +23,12 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={youfit} alt="" width={"500px"} className="" />
+                <img
+                  src={youfit}
+                  alt=""
+                  width={"500px"}
+                  className="img-fluid"
+                />
               </a>
             </div>
             <h4 className="text-white mt-3">YouFit Gym</h4>
@@ -34,7 +39,7 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={ymca} alt="" width={"500px"} className="" />
+                <img src={ymca} alt="" width={"500px"} className="img-fluid" />
               </a>
             </div>
             <h4 className="text-white mt-3">YMCA SOUTH OF FLORIDA</h4>
@@ -45,7 +50,12 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={youfit} alt="" width={"500px"} className="" />
+                <img
+                  src={youfit}
+                  alt=""
+                  width={"500px"}
+                  className="img-fluid"
+                />
               </a>
             </div>
             <h4 className="text-white mt-3">YouFit Gym</h4>
@@ -56,7 +66,7 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={ymca} alt="" width={"500px"} className="" />
+                <img src={ymca} alt="" width={"500px"} className="img-fluid" />
               </a>
             </div>
             <h4 className="text-white mt-3">YMCA SOUTH OF FLORIDA</h4>
@@ -67,7 +77,12 @@ export default function PortfolioGallery() {
           <div>
             <div className="p-6 bg-gray iamg-hover">
               <a href="/">
-                <img src={youfit} alt="" width={"500px"} className="" />
+                <img
+                  src={youfit}
+                  alt=""
+                  width={"500px"}
+                  className="img-fluid"
+                />
               </a>
             </div>
             <h4 className="text-white mt-3">YouFit Gym</h4>
